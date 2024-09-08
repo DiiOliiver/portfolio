@@ -1,0 +1,314 @@
+html,
+body {
+  height: 100%;
+  min-height: 100vh;
+  scrollbar-color: inherit !important;
+}
+body::-webkit-scrollbar {
+  width: 12px;
+}
+*::-webkit-scrollbar-track {
+  background: #161616 !important;
+}
+*::-webkit-scrollbar-thumb {
+  background-color: #56595D !important;
+  border-radius: 2px !important;
+  border: 0 !important;
+}
+
+#root {
+  min-height: 100vh;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.Toastify__toast-theme--dark.Toastify__toast--success {
+  background: #0c130d;
+  border: 1px solid #689f20;
+}
+
+.Toastify__toast-theme--dark.Toastify__toast--error {
+  background: #160b0b;
+  border: 1px solid #ff5555;
+}
+
+.Toastify__toast-theme--dark.Toastify__toast--info {
+  background: #071318;
+  border: 1px solid #0096aa;
+}
+
+.Toastify__toast-theme--dark.Toastify__toast--warning {
+  background: #191207;
+  border: 1px solid #ffda27;
+}
+
+.swal2-popup {
+  max-width: 296px;
+}
+
+.swal2-icon {
+  width: 44px;
+  height: 44px;
+  border-width: 0.17em;
+}
+
+.swal2-icon .swal2-icon-content {
+  font-size: 28px;
+}
+
+.swal2-title {
+  font-size: 14px;
+}
+
+.swal2-html-container {
+  font-size: 14px;
+}
+
+.swal2-styled {
+  min-width: 118px !important;
+  min-height: 44px;
+}
+
+.swal2-icon.swal2-error .swal2-x-mark-line-left {
+  top: 1.3em;
+  width: 1.5em;
+  left: 0.6em !important;
+  height: 0.21em;
+}
+
+.swal2-icon.swal2-error .swal2-x-mark-line-right {
+  top: 1.3em;
+  width: 1.5em;
+  right: 0.7em !important;
+  height: 0.21em;
+}
+
+.swal2-styled.swal2-cancel {
+  background-color: transparent;
+}
+
+input:-webkit-autofill {
+  box-shadow: none !important;
+  -webkit-text-fill-color: inherit !important;
+  caret-color: transparent !important;
+}
+
+/* devextreme */
+/* theme DARK */
+.dx-scheduler-header {
+  display: none;
+} /*header navigation date*/
+
+.siiguti_timeline_dark .dx-scheduler-work-space {
+  background-color: #26264f;
+  border-color: #141432;
+  border-radius: 8px;
+}
+
+.siiguti_timeline_dark .dx-scheduler-header-panel-container,
+.siiguti_timeline_dark .dx-scheduler-group-header {
+  background-color: #141432;
+}
+
+.siiguti_timeline_dark .dx-scheduler-work-space table,
+.siiguti_timeline_dark .dx-scheduler-work-space th,
+.siiguti_timeline_dark .dx-scheduler-work-space td,
+.siiguti_timeline_dark .dx-scheduler-header-panel-empty-cell,
+.siiguti_timeline_dark .dx-scheduler-group-header {
+  border-color: #141432 !important;
+}
+
+.siiguti_timeline_dark .dx-scheduler-container {
+  background-color: #141432;
+  border-radius: 8px;
+}
+
+.siiguti_timeline_dark .dx-scheduler-header {
+  border-color: #141432;
+}
+
+.siiguti_timeline_dark
+  .dx-buttongroup-item.dx-button.dx-button-mode-contained:not(.dx-item-selected) {
+  background-color: transparent;
+}
+
+.siiguti_timeline_dark .dx-button-mode-contained {
+  border-width: 2px;
+  border-color: #0165b1;
+}
+
+.siiguti_timeline_dark .dx-buttongroup .dx-state-hover.dx-button-mode-contained {
+  border-color: #0165b1;
+  background-color: #26264f;
+}
+.siiguti_timeline_dark .dx-buttongroup .dx-state-hover.dx-button {
+  background-color: #26264f !important;
+}
+.siiguti_timeline_dark .dx-button-mode-contained.dx-item-selected {
+  background-color: #0165b1 !important;
+}
+
+/* theme LIGHT */
+.siiguti_timeline_light .dx-scheduler-work-space {
+  background-color: #f3f5f7;
+  border-color: #eaebea;
+  color: #000000de;
+  border-radius: 8px;
+}
+
+.siiguti_timeline_light .dx-scheduler-header-panel-container,
+.siiguti_timeline_light .dx-scheduler-group-header {
+  background-color: #eaebea;
+}
+
+.siiguti_timeline_light .dx-scheduler-work-space table,
+.siiguti_timeline_light .dx-scheduler-work-space th,
+.siiguti_timeline_light .dx-scheduler-work-space td,
+.siiguti_timeline_light .dx-scheduler-header-panel-empty-cell,
+.siiguti_timeline_light .dx-scheduler-group-header {
+  border-color: #eaebea !important;
+  color: #000000de;
+}
+
+.siiguti_timeline_light .dx-scheduler-container {
+  background-color: #eaebea;
+  color: #000000de;
+  border-radius: 8px;
+}
+
+.siiguti_timeline_light .dx-widget {
+  color: #000000de;
+}
+
+.siiguti_timeline_light .dx-button-mode-contained .dx-icon {
+  color: #000000de;
+}
+
+.siiguti_timeline_light .dx-scheduler-header {
+  border-color: #eaebea;
+  color: #000000de;
+}
+
+.siiguti_timeline_light
+  .dx-buttongroup-item.dx-button.dx-button-mode-contained:not(.dx-item-selected) {
+  background-color: transparent;
+}
+
+.siiguti_timeline_light .dx-button-mode-contained {
+  border-width: 2px;
+  border-color: #0165b1;
+}
+
+.siiguti_timeline_light .dx-buttongroup .dx-state-hover.dx-button-mode-contained {
+  border-color: #0165b1;
+  background-color: #26264f;
+}
+.siiguti_timeline_light .dx-buttongroup .dx-state-hover.dx-button {
+  background-color: #26264f !important;
+}
+.siiguti_timeline_light .dx-button-mode-contained.dx-item-selected {
+  background-color: #0165b1 !important;
+}
+
+/*React Flow*/
+.react-flow__attribution {
+  display: none;
+}
+
+.react-flow__node.react-flow__node-background {
+  z-index: -2 !important;
+}
+.react-flow__controls-button {
+  background: transparent;
+  border: 0;
+  color: inherit;
+}
+
+.MuiFormLabel-root {
+  top: -4px !important;
+}
+.MuiInputLabel-root.Mui-focused,
+.MuiInputLabel-shrink {
+  top: 0 !important;
+}
+
+.pulse {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: #01a6fd;
+  z-index: 1;
+}
+
+.pulse::before,
+.pulse::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background: #01a6fd;
+  animation: pulse 2s ease-out infinite;
+  z-index: -1;
+  opacity: 0.4;
+}
+
+@keyframes pulse {
+  100% {
+    transform: scale(2.5);
+    opacity: 0;
+  }
+}
+
+.pulse::after {
+  animation-delay: 1s;
+}
+
+.swal2-html-container {
+  font-weight: 300;
+  opacity: 0.7;
+}
+
+.swal2-styled.swal2-cancel {
+  border: 1px solid #c3014d;
+}
+
+.swal2-icon.swal2-icon-show {
+  margin-top: 16px;
+}
+
+.swal2-container {
+  z-index: 9999 !important;
+}
+
+#menu-select .MuiPaper-root {
+  background: #231f20 !important;
+}
+
+#menu-select .MuiPaper-root ul {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+#menu-select .MuiPaper-root li {
+  border-radius: 4px;
+  font-size: 12px;
+  border: 1px solid transparent;
+  transition: all 0.2s ease-in-out;
+}
+#menu-select .MuiPaper-root li.Mui-selected {
+  background: #2c2c2c;
+}
+#menu-select .MuiPaper-root li:not(.Mui-selected):hover {
+  border-color: #c3014d;
+}
+
+.react-flow__controls-button:hover {
+  background: #2c2c2c;
+  opacity: 0.7;
+}
